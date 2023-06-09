@@ -23,7 +23,5 @@ namespace Social_Media_API.Models
 
         // Navigation property to access the user's posts
         public ICollection<Post> Posts { get; set; }
-
-        // Add any other properties or relationships you need for the user entity
     }
 }
