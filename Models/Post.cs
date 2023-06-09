@@ -18,7 +18,5 @@ namespace Social_Media_API.Models
 
         public int UserId { get; set; } // Foreign key for the user who created the post
         public User User { get; set; } // Navigation property to access the user who created the post
-
-        // Add any other properties you need for the post entity
     }
 }
