@@ -28,8 +28,6 @@ namespace Social_Media_API
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
-            // Add other services and dependencies here
-
             services.AddSwaggerGen();
 
             services.AddMvc();
