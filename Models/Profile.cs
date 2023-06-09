@@ -19,7 +19,5 @@ namespace Social_Media_API.Models
 
         // Navigation property to access the associated User
         public User User { get; set; }
-
-        // Add any other properties you need for the profile entity
     }
 }
